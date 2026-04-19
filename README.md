@@ -1,4 +1,4 @@
-# 📝 Notes Extension for Firefox
+# Notes Extension for Firefox
 
 A simple, beautiful note-taking extension for Firefox. Keep your thoughts and ideas safe in your browser, instantly accessible whenever you need them.
 
@@ -8,31 +8,31 @@ A simple, beautiful note-taking extension for Firefox. Keep your thoughts and id
 
 ## ⚡ Quick Download
 
-👉 **[Download Notes.xpi](dist/Notes.xpi?raw=true)** ← Click to install immediately!
+**[Download Notes.xpi](dist/Notes.xpi?raw=true)** ← Click to install immediately!
 
 Or just drag `Notes.xpi` into Firefox. Done! 🎉
 
 ---
 
-## ✨ What This Does
+## What This Does
 
-- 📌 **Quick Notes**: Jot down ideas in seconds
-- 💾 **Saves Automatically**: Your notes are safe, even if you close Firefox
-- 🔒 **Private**: Everything stays on your computer (no tracking, no servers)
-- ⚡ **Fast**: No loading screens, no delays
-- 🎯 **Simple**: One click to create, edit, or delete notes
-- 📅 **Organized**: See dates and previews of all your notes
+- **Quick Notes**: Jot down ideas in seconds
+- **Saves Automatically**: Your notes are safe, even if you close Firefox
+- **Private**: Everything stays on your computer (no tracking, no servers)
+- **Fast**: No loading screens, no delays
+- **Simple**: One click to create, edit, or delete notes
+- **Organized**: See dates and previews of all your notes
 
 ---
 
-## 🚀 How to Install
+## How to Install
 
-### The Super Easy Way ✨
+### The Super Easy Way
 
 1. **Download** `Notes.xpi` from this page (see button above)
 2. **Drag it** into your Firefox window
 3. **Click "Add"** when Firefox asks
-4. **Done!** 🎉
+4. **Done!**
 
 ### Step-by-Step (With Pictures)
 
@@ -77,26 +77,7 @@ If you want to test the bleeding-edge development version:
 
 ---
 
-## ❓ FAQ
-
-**Q: Where are my notes saved?**
-A: On your computer, in Firefox's local storage. They're never sent anywhere.
-
-**Q: What if I clear Firefox cache?**
-A: Your notes are safe—they're separate from cache. Only clearing "Local Storage" would remove them.
-
-**Q: Can I sync notes between computers?**
-A: Not yet. This keeps everything simple and private. Each Firefox installation has its own notes.
-
-**Q: Is it safe?**
-A: Yes! It's open-source code you can review, no permissions beyond local storage, and no internet requests.
-
-**Q: Can I export my notes?**
-A: You can copy text from the extension, but direct export isn't built in. This could be added in future updates.
-
----
-
-## 🔧 For Developers
+## For Developers
 
 ### Building from Source
 
@@ -125,7 +106,7 @@ A: You can copy text from the extension, but direct export isn't built in. This 
 
 ---
 
-## 💭 Ideas for Future Updates
+## Ideas for Future Updates
 
 - Search through notes
 - Organize notes by tags or folders
@@ -136,29 +117,19 @@ A: You can copy text from the extension, but direct export isn't built in. This 
 
 ---
 
-## 📄 License
-
-This project is open source and free to use. See LICENSE for details.
-
-## 🤝 Contributing
-
-Found a bug? Have an idea? Feel free to open an issue or submit a pull request!
-
----
-
-**Happy note-taking! 📝**
+**Happy note-taking!**
 
 ### Notes disappeared
 - This typically happens if Firefox cleared site data
 - Install the extension again to start fresh
 
-## 📋 Requirements
+## Requirements
 
 - **Firefox**: Version 55 or later (uses Manifest V3)
 - **No Dependencies**: Pure JavaScript, HTML, and CSS
 - **Permissions**: Only requires `storage` permission
 
-## 🛠️ Building from Source
+## Building from Source
 
 The project includes a build script to package the extension as a `.xpi` file:
 
@@ -168,7 +139,7 @@ The project includes a build script to package the extension as a `.xpi` file:
 
 This creates `dist/notes.xpi` which can be distributed and installed on any Firefox browser.
 
-## 📝 Technical Details
+## Technical Details
 
 - **Manifest Version**: 3 (MV3)
 - **Extensions Format**: .xpi (Firefox extension package)
@@ -177,11 +148,11 @@ This creates `dist/notes.xpi` which can be distributed and installed on any Fire
 - **No External Libraries**: Vanilla JavaScript
 - **Storage API**: `browser.storage.local`
 
-## 📄 License
+## License
 
 This project is provided as-is for personal use.
 
-## 🔗 Resources
+## Resources
 
 - [Firefox WebExtension Documentation](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions)
 - [WebExtension Manifest V3](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json)
