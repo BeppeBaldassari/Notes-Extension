@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Notes</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <div id="notesList" class="notes-list">
+      <!-- Notes will be populated here -->
+    </div>
+
+    <div id="noteEditor" class="note-editor hidden">
+      <div class="editor-header">
+        <input type="text" id="noteTitle" placeholder="Note Title" class="note-title-input">
+        <button id="saveNoteBtn" class="btn btn-primary">Save</button>
+        <button id="backBtn" class="btn btn-secondary">Back</button>
+      </div>
+      <textarea id="noteContent" placeholder="Start typing your note..."></textarea>
+    </div>
+
+    <button id="newNoteBtn" class="floating-btn" title="New Note">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <line x1="12" y1="5" x2="12" y2="19"></line>
+        <line x1="5" y1="12" x2="19" y2="12"></line>
+      </svg>
+    </button>
+  </div>
+
+  <script src="storage.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>

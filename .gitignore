@@ -1,0 +1,22 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+*.swp
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Node (if added later)
+node_modules/
+npm-debug.log
+
+# Build artifacts
+*.zip
+
+# Temporary files
+*.tmp
+Thumbs.db
